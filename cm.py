@@ -74,3 +74,4 @@ doctor=tostrings[9]
 for doctor in tostrings:
     cur.execute("INSERT INTO doctors VALUES (%s,%s,%s,%s,%s,%s,%s);",(doctor[0],doctor[1],doctor[2],doctor[3],doctor[4],doctor[5],doctor[6]))
 conn.commit()
+//수정2
